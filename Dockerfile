@@ -2,7 +2,7 @@
 FROM google/cloud-sdk
 MAINTAINER Ernesto Alejo <ernestokarim@gmail.com>
 
-ENV DOCKER_VERSION 1.9.1-0~wheezy
+ENV DOCKER_VERSION 1.12.1-0~wheezy
 
 RUN apt-get update && \
     apt-get install -y apt-transport-https && \
